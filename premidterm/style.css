@@ -1,0 +1,45 @@
+body {
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0.4cm;
+  background-image: url("http://67.media.tumblr.com/3cb22105978cc131efcd25ed0137dba3/tumblr_inline_o5xogcqArD1t3082v_1280.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  
+  
+
+
+
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #F21;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
