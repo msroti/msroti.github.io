@@ -1,0 +1,21 @@
+html { 
+background: url("http://i1074.photobucket.com/albums/w420/themichab/micha-9_zpsmv3szcwd.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+nav { 
+ font-family: sans-serif;
+ background-color: black;
+ height: 50px;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+ box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+ z-index: 100;
+ border-bottom: 0px solid #C10021;
+}
